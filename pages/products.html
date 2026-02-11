@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ürünler | TABAN</title>
+  <meta name="description" content="Kategori bazlı ürün listesi: tahıl, yağlı tohum, yem hammaddeleri." />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+  <div data-component="header"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" style="color:#bbcc9f;">Ürünler</span>
+      <h1>Küresel standartta tarım emtia portföyü.</h1>
+      <p>Kategori bazlı filtreleme, ürün detayları ve en çok talep gören ürünleri tek platformda inceleyin.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all">Tümü</button>
+        <button class="filter-btn" data-filter="tahil">Tahıl</button>
+        <button class="filter-btn" data-filter="yagli">Yağlı Tohum</button>
+        <button class="filter-btn" data-filter="yem">Yem</button>
+      </div>
+      <div class="grid-3">
+        <article class="card" data-category="tahil"><span class="tag">TAHIL</span><h3>Mısır</h3><p>Yem ve nişasta sanayii için istikrarlı kalite.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+        <article class="card" data-category="tahil"><span class="tag">TAHIL</span><h3>Arpa</h3><p>Hayvancılık ve malt üretimine uygun kalite profili.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+        <article class="card" data-category="yagli"><span class="tag">YAĞLI TOHUM</span><h3>Kanola</h3><p>Yüksek yağ oranı ve geniş tedarik ağı.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+        <article class="card" data-category="yagli"><span class="tag">YAĞLI TOHUM</span><h3>Soya Fasulyesi</h3><p>Yem ve yağ sektörüne dengeli üretim girdisi.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+        <article class="card" data-category="yem"><span class="tag">YEM</span><h3>DDGS</h3><p>Yüksek besin değeri ile optimize edilmiş yem çözümü.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+        <article class="card" data-category="yem"><span class="tag">YEM</span><h3>Ayçiçek Küspesi</h3><p>Protein içeriği ile rasyon dengesini güçlendiren ürün.</p><a class="btn btn-ghost-dark" href="product-detail.html">İncele</a></article>
+      </div>
+    </div>
+  </section>
+
+  <div data-component="footer"></div>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

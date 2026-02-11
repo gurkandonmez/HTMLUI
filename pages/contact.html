@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İletişim | TABAN</title>
+  <meta name="description" content="TABAN iletişim sayfası: form, iletişim kartları ve harita." />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+  <div data-component="header"></div>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" style="color:#bbcc9f;">İletişim</span>
+      <h1>İş birliği için doğru noktadasınız.</h1>
+      <p>Yeni iş ortaklıkları, ürün talepleri ve kurumsal sorularınız için uzman ekibimize ulaşın.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <article class="card">
+        <h2>İletişim Formu</h2>
+        <form class="form-grid">
+          <input type="text" placeholder="Ad Soyad" required />
+          <input type="email" placeholder="E-posta" required />
+          <input type="text" placeholder="Konu" required />
+          <textarea placeholder="Mesajınız" required></textarea>
+          <label><input type="checkbox" required /> KVKK onayını kabul ediyorum.</label>
+          <button type="submit" class="btn btn-primary">Gönder</button>
+        </form>
+      </article>
+      <article class="card">
+        <h2>İletişim Kartları</h2>
+        <p><strong>Genel Merkez:</strong> Levent Mah. Büyükdere Cad. No:00 İstanbul</p>
+        <p><strong>Telefon:</strong> +90 212 222 11 11</p>
+        <p><strong>E-posta:</strong> info@taban.com.tr</p>
+        <iframe title="İstanbul Harita" src="https://maps.google.com/maps?q=levent%20istanbul&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="260" style="border:0;border-radius:14px;" loading="lazy"></iframe>
+      </article>
+    </div>
+  </section>
+
+  <div data-component="footer"></div>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>
